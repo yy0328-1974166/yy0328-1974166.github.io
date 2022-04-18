@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yang Yi's Assignment 2</title>
+        <link rel="stylesheet" type="text/css" href="anExternal.css" />
+        <style>
+            p.a {
+                font-size: 20px;
+            }
+
+            p.b {
+                font-size: 30px;
+            }
+
+            img.c {
+                width: 50px;
+                height: 50px;
+            }
+
+            img.d {
+                width: 50px;
+                height: 50px;
+            }
+
+            img.e {
+                width:100px;
+                height:100px;
+                position: relative;
+                animation: dogmove 5s infinite;
+            }
+            @keyframes dogmove {
+                from {left:0px;}
+                to {left:200px;}
+            }
+
+            .container {
+                position: relative;
+                text-align: center;
+                color:white;
+            }
+
+            .centered {
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            img.f {
+                margin: 20px;
+            }
+
+            p.g {
+                font-size: 20px;
+                border: 4px dotted red;
+            }
+        </style>
+    </head>
+
+
+
+    <body>
+        <h1>Level 1: Newbie</h1>
+        <h2>1.Two paragraphs that each have a different font.</h2>
+            <p class="a">“I think, therefore I am.” - René Descartes.</p>
+            <p class="b">“When life gives you lemons, make lemonade.” - Elbert Hubbard</p>
+
+        <h2>2.Two pictures that were originally different sizes, resized to 50px by 50px.</h2>
+            <img src="https://media.nature.com/lw800/magazine-assets/d41586-020-01430-5/d41586-020-01430-5_17977552.jpg" class="c" title="dog1">
+            <img src="https://manofmany.com/wp-content/uploads/2020/06/best-apartment-dogs-1200x800.jpg" class="d" title="dog2">
+
+        <h2>3.One more unique CSS command that was not discussed in the workshop</h2>
+            <p>CSS Animation</p>
+            <img src="https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg" class="e" title="dog move">
+
+        <h1>Level 2: Apprentice</h1>
+        <h2>1.Text that is centered on a photo</h2>
+            <p>(floated right - master level)</p>
+            <p>(rounded corner border - master level)</p>
+            <div class="container">
+                <img src="https://d.newsweek.com/en/full/1979380/dog-running-through-autumn-leaves.jpg" title="dog3" style="height:300px; width:300px;">
+                <div class="centered">This is a golden retriever!</div>
+            </div>
+        
+        <h2>2.A photo with 20 pixel margins on each side</h2>
+            <img src="https://www.guidedogs.org/wp-content/uploads/2021/11/01.11.2021_SGD1014-Edit-scaled.jpg" class="f" title="dog4" style="height:300px; width:300px;">
+
+        <h2>3.Text with a border that uses dotted lines</h2>
+            <p class="g">“Time is money.” - Benjamin Franklin</p>
+    </body>
+</html>
